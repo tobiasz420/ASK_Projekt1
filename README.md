@@ -46,7 +46,7 @@ void print_bytes(void *ptr, size_t size) {
 ```
 Funkcja print_bytes iteruje po kolejnych bajtach w danym obszarze pamięci, wyświetlając każdy z nich w formacie szesnastkowym. Pozwala to na wizualizację struktury danych w surowej formie.
 
-Funkcja print_binary
+### Funkcja print_binary
 ```c
 void print_binary(void *ptr, size_t size) {
     unsigned char *bytes = (unsigned char *)ptr;
@@ -62,7 +62,7 @@ void print_binary(void *ptr, size_t size) {
 ```
 Funkcja ta przedstawia zawartość pamięci w formie binarnej. Przechodzi przez każdy bajt, a następnie przez każdy jego bit, wyświetlając 0 lub 1. Daje to możliwość analizy surowej binarnej reprezentacji danych.
 
-Funkcja subtraction_U2
+### Funkcja subtraction_U2
 ```c
 void subtraction_U2(int a, int b) {
     printf("Liczba A: %d\n", a);
@@ -79,7 +79,7 @@ void subtraction_U2(int a, int b) {
 ```
 Funkcja demonstruje odejmowanie w U2, prezentując liczby i ich reprezentacje binarne, co ułatwia zrozumienie bitowej logiki odejmowania.
 
-Funkcja float_conversation
+### Funkcja float_conversation
 ```c
 void float_conversion(float f) {
     printf("FLOAT: %f\n", f);
